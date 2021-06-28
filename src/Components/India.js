@@ -7,7 +7,7 @@ const India = () => {
 useEffect((item,key)=>{
 Axios.get('https://corona.lmao.ninja/v2/countries/india').then((res)=>{
     setState(res.data)
-    console.log(res.data);
+
 })
 
 },[])

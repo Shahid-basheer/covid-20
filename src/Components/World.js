@@ -7,12 +7,12 @@ const World = () => {
     const [state, setState] = useState([])
     useEffect(() => {
         Axios.get('https://corona.lmao.ninja/v2/countries').then((res) => {
-            console.log(res);
             setState(res.data)
         })
     }, [])
     return (
-        <div>
+        <div className='world'>
+       
             <h3>World</h3>
             <div className="container mt-5 pt-5" style={{maxHeight:'600px', overflowY:' auto'}}>
             <Table striped bordered hover variant="dark" responsive >
