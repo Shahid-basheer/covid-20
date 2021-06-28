@@ -9,28 +9,23 @@
     "start_url": ".",
   
   "icons": [
+   
     {
-      "src": "mask.png",
+      "src": "icon 196x196.png",
       "sizes": "196x196",
       "type": "image/png",
       "purpose":"any maskable"
     },
     {
-      "src": "corona48x48.png",
-      "sizes": "48x48",
+      "src": "corona192x192.png",
+      "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "corona48x48.png",
-      "sizes": "48x48",
-      "type": "image/png"
-    },
-    {
-      "src": "corona-icon 512x512.png",
+      "src": "corona 512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
-
   ]
   
 }
