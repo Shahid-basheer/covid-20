@@ -1,8 +1,15 @@
 .App {
   text-align: center;
-  
 }
 
-body{
-  background-image: -moz-linear-gradient(orange,green);
+body {
+  background-image: -moz-linear-gradient(orange, green);
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll::-webkit-scrollbar {
+  display: none;
 }
