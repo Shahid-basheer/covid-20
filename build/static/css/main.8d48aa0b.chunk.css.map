@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA,KACE,iBAEF,CAEA,KACE,mDACF","file":"main.8d48aa0b.chunk.css","sourcesContent":[".App {\n  text-align: center;\n  \n}\n\nbody{\n  background-image: -moz-linear-gradient(orange,green);\n}\n"]}
